@@ -69,7 +69,7 @@ class GoogleSignInUserData {
 
   /// Authorization code required to make API calls from the server.
   /// Read more on <https://developers.google.com/identity/sign-in/android/offline-access>
-  String serverAuthCode;
+  String? serverAuthCode;
 
   @override
   int get hashCode => hashObjects(<String?>[
